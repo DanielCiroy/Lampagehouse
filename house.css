@@ -1,0 +1,303 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.header{
+    height: 100vh;
+    text-align: center;
+    background-image: url(./images/bg2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header ul li.active a{
+   color: #ffff;
+   font-weight: 1000;
+
+}
+
+
+
+
+
+
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top: 30px;
+}
+
+
+.header ul li a{
+    padding: 0 30px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: orangered;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header .text{
+    margin-top: 210px;
+    line-height: 50px;
+    
+}
+
+.header .text h2{
+    color: #ffff;
+    font-size: 50px;
+    font: weight 700;
+    text-transform: capitalize;
+    
+}
+
+.header .text p{
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+}
+
+.header .text a{
+    color: #ffff;
+    border: 1px solid #ffff;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 7px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+}
+
+.section-1{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    line-height: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.section-1 h2{
+    color: orangered;
+    font-size: 32px;
+    font: weight 650;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+
+}
+.section-1 p{
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.section-1 img{
+border-radius: 10px;
+}
+.section-1 h3{
+    color: orangered;
+    font-size: 32px;
+    font: weight 650;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+    
+}
+
+.section-2{
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+
+}
+
+.section-2 .texte{
+    text-align: center;
+}
+
+.section-2 .texte h2{
+    color: orangered;
+    font-size: 32px;
+    font: weight 650;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.section-2 .texte p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+
+
+}
+
+
+
+.section-2 .service-1 img{
+    width: 350px;
+    height: 350px;
+}
+
+.section-2 .services{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px auto;
+    
+
+}
+
+.section-2 .services .service-1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.section-2 .services .service-1 h2{
+    
+    font: weight 650;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+.section-2 .services .service-1 p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+
+}
+
+.contact .texte{
+    text-align: center;
+}
+
+.contact .texte h2{
+    color: orangered;
+    font-size: 32px;
+    font: weight 650;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contact .texte .para p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.contact{
+    height: auto;
+}
+
+.contact .contact-us{
+    width: 65%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .contact-us input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #dddd;
+}
+
+.contact .contact-us textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #dddd;
+}
+
+.contact-us a{
+    text-decoration: none;
+    color: #ffff;
+    display: inline-block;
+    background-color: orangered;
+    margin-top: 25px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+
+
+}
+
+.footer{
+    background: black;
+    line-height: 70px;
+    text-align: center;
+    color: #ffff;
+}
+
+
+
+
+
+
+@media  screen and (max-width:1250px) {
+    .section-2 .service-1 img{
+    width: 300px;
+    height: 300px;
+}  
+
+.service-1 .para{
+    display: none;
+}
+.contact{
+    margin-top: 10px;
+}
+
+}
+
+@media  screen and (max-width:1060px){
+
+
+ .section-2 .service-1 img{
+    width: 250px;
+    height: 250px;  
+}  
+}
+
+
+
+@media  screen and (max-width:885px){
+    .section-2 .service-1 img{
+    width: 200px;
+    height: 200px;  
+}  
+
+}
+
+@media  screen and (max-width:770px){
+
+
+    
+}
+
+
+
+
+
+
+
